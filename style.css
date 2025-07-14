@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #ef4e7b, #3206b7);
+    max-height: 98vh;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+
+.row input{
+    height: 60px;
+    background-color: lightgrey;
+    width: 257px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 173px 0;
+}
+
+.m-0{
+    margin: 10px 0 -110px 0;
+    font-size: 3rem;
+}
+
+/* .b{
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px;
+    border-radius: 70%;
+    /* border: 2px solid black; */
+    /* cursor: pointer;
+    font-weight: bolder;
+    font-size: 1rem;
+    border: transparent; */
+    /* background: linear-gradient(135deg, rgb(129, 4, 4), rgb(33, 33, 118)); */
+    /* background: transparent;
+    color: rgb(0, 0, 0); */
+/* } */
+.button{
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px;
+    border-radius: 70%;
+    /* border: 2px solid black; */
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 1rem;
+    /* font-weight:; */
+    border: transparent;
+    /* background: linear-gradient(135deg, rgb(129, 4, 4), rgb(33, 33, 118)); */
+    background: transparent;
+    color: rgb(0, 0, 0);
+}
+
+/* .b:hover{
+    background:linear-gradient(135deg, rgb(80, 22, 22), rgb(68, 68, 205));
+    color: whitesmoke;
+} */
+.button:hover{
+    /* background: linear-gradient(135deg, rgb(129, 4, 4), rgb(33, 33, 118)); */
+    background:linear-gradient(135deg, rgb(80, 22, 22), rgb(68, 68, 205));
+    color: whitesmoke;
+    /* background: linear-gradient(135deg, rgb(202, 89, 89), rgb(117, 117, 191)); */
+    /* background: transparent; */
+    /* border: 2px solid black; */
+}
